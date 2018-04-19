@@ -1,4 +1,4 @@
-![logo](http://www.jspsych.org/img/jspsych-logo.jpg)
+![logo](http://www.jsPsych.org/img/jsPsych-logo.jpg)
 
 jsPsych is a JavaScript library for creating behavioral experiments that run in a web browser. jsPsych provides a framework for defining experiments using a set of flexible plugins that create different kinds of tasks a subject could complete during an experiment. By assembling these different plugins together it is possible to create many different types of experiments.
 
@@ -7,7 +7,7 @@ Examples
 
 These examples are intended to illustrate what jsPsych code and experiments look like. There is a larger set of example code in the [examples folder](/examples).
 
-#### #1: Displaying instructions [(code)](https://github.com/jspsych/jsPsych/tree/master/examples/demos/demo_1.html)
+#### #1: Displaying instructions [(code)](https://github.com/jsPsych/jsPsych/tree/master/examples/demos/demo_1.html)
 <div display="flex">
 <img src="https://user-images.githubusercontent.com/14092539/28126774-801ea42e-66f8-11e7-9b6a-c8bad0026bec.gif" align="right" width=50% />
 <div markdown="1" style="width: 50%;">
@@ -63,7 +63,7 @@ jsPsych.init({
 </div>
 
 
-#### #2: Displaying images and recording a response [(code)](https://github.com/jspsych/jsPsych/tree/master/examples/demos/demo_2.html)
+#### #2: Displaying images and recording a response [(code)](https://github.com/jsPsych/jsPsych/tree/master/examples/demos/demo_2.html)
 <div display="flex">
 <img src="https://user-images.githubusercontent.com/14092539/28125911-0504cca2-66f6-11e7-8f5b-c9686f63aaa8.gif" align="right" width=50% />
 
@@ -116,7 +116,7 @@ jsPsych.init({
 </div>
 </div>
 
-#### #3: A flanker task showing a few advanced features of the library [(code)](https://github.com/jspsych/jsPsych/tree/master/examples/demos/demo_3.html)
+#### #3: A flanker task showing a few advanced features of the library [(code)](https://github.com/jsPsych/jsPsych/tree/master/examples/demos/demo_3.html)
 
 <div display="flex">
 <img src="https://user-images.githubusercontent.com/14092539/28126802-97b50d08-66f8-11e7-9a45-46561ab51a5f.gif" align="right" width=50% />
@@ -171,12 +171,12 @@ jsPsych.init({
 Documentation
 -------------
 
-Documentation is available at [docs.jspsych.org](http://docs.jspsych.org).
+Documentation is available at [docs.jsPsych.org](http://docs.jsPsych.org).
 
 Need help?
 ----------
 
-For questions about using the library, please post to the [jsPsych e-mail list](https://groups.google.com/forum/#!forum/jspsych). This creates a public archive of questions and solutions.
+For questions about using the library, please post to the [jsPsych e-mail list](https://groups.google.com/forum/#!forum/jsPsych). This creates a public archive of questions and solutions.
 
 Contributing
 ------------

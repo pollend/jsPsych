@@ -1,4 +1,4 @@
-# jspsych-video plugin
+# jsPsych-video plugin
 
 This plugin is for showing a video. No responses are recorded. The trial concludes when the video finishes.
 

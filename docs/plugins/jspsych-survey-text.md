@@ -1,4 +1,4 @@
-# jspsych-survey-text plugin
+# jsPsych-survey-text plugin
 
 The survey-text plugin displays a set of questions with free response text fields. The subject types in answers.
 

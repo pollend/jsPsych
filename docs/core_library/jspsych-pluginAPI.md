@@ -467,7 +467,7 @@ The `conditional_function` function is passed a single argument containing the t
 
 ### Example
 
-For an example, see the [image-keyboard-response](https://github.com/jodeleeuw/jsPsych/blob/master/plugins/jspsych-image-keyboard-response.js) and [audio-keyboard-response](https://github.com/jodeleeuw/jsPsych/blob/master/plugins/jspsych-audio-keyboard-response.js) plugins.
+For an example, see the [image-keyboard-response](https://github.com/jodeleeuw/jsPsych/blob/master/plugins/jsPsych-image-keyboard-response.js) and [audio-keyboard-response](https://github.com/jodeleeuw/jsPsych/blob/master/plugins/jsPsych-audio-keyboard-response.js) plugins.
 
 ---
 ## jsPsych.pluginAPI.setTimeout

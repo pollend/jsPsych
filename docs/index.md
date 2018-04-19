@@ -1,6 +1,6 @@
 #
 
-![jsPsych](img/jspsych-logo.jpg)
+![jsPsych](img/jsPsych-logo.jpg)
 
 jsPsych is a JavaScript library for running behavioral experiments in a web browser. The library provides a flexible framework for building a wide range of laboratory-like experiments that can be run online.
 

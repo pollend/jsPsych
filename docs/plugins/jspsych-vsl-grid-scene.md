@@ -1,4 +1,4 @@
-# jspsych-vsl-grid-scene plugin
+# jsPsych-vsl-grid-scene plugin
 
 The VSL (visual statistical learning) grid scene plugin displays images arranged in a grid. This plugin can be used to replicate the experiments described in:
 
@@ -39,7 +39,7 @@ var image_size = 100; // pixels
 var grid_stimulus = jsPsych.plugins['vsl-grid-scene'].generate_stimulus(pattern, image_size);
 
 // grid_stimulus will now contain a string (NOT an HTML DOM object) that you can
-// pass into other plugins that accept HTML stimuli as input, such as jspsych-html-keyboard-response.
+// pass into other plugins that accept HTML stimuli as input, such as jsPsych-html-keyboard-response.
 
 ```
 

@@ -1,4 +1,4 @@
-# jspsych-audio-slider-response
+# jsPsych-audio-slider-response
 
 This plugin plays audio files and records responses generated with a button click.
 

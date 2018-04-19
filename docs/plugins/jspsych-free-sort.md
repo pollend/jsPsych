@@ -1,4 +1,4 @@
-# jspsych-free-sort plugin
+# jsPsych-free-sort plugin
 
 The free-sort plugin displays a collection of images on the screen that the subject can interact with by clicking and dragging. All of the moves that the subject performs are recorded.
 

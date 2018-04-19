@@ -1,4 +1,4 @@
-# jspsych-form
+# jsPsych-form
 
 This plugin creates a form from a JSON schema. 
 

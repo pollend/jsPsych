@@ -1,6 +1,6 @@
 # Fullscreen Experiments
 
-You can run your experiment in fullscreen mode by using the jspsych-fullscreen plugin.
+You can run your experiment in fullscreen mode by using the jsPsych-fullscreen plugin.
 
 ```javascript
 var timeline = [];

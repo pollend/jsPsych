@@ -1,4 +1,4 @@
-# jspsych-vsl-animate-occlusion plugin
+# jsPsych-vsl-animate-occlusion plugin
 
 The VSL (visual statistical learning) animate occlusion plugin displays an animated sequence of shapes that disappear behind an occluding rectangle while they change from one shape to another. This plugin can be used to replicate the experiments described in:
 

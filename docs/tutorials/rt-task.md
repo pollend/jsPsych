@@ -18,9 +18,9 @@ Start by downloading jsPsych and setting up a folder to contain your experiment 
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
 </html>
@@ -36,9 +36,9 @@ All jsPsych experiments are defined by a timeline. The timeline is an array that
 var timeline = [];
 ```
 
-Let's greet the subject with a simple welcome message using the [jspsych-html-keyboard-response](../plugins/jspsych-html-keyboard-response.md) plugin.
+Let's greet the subject with a simple welcome message using the [jsPsych-html-keyboard-response](../plugins/jsPsych-html-keyboard-response.md) plugin.
 
-First, we create a trial that uses the jspsych-html-keyboard-response plugin and contains a simple string to show the subject.
+First, we create a trial that uses the jsPsych-html-keyboard-response plugin and contains a simple string to show the subject.
 
 ```javascript
 var welcome = {
@@ -53,7 +53,7 @@ Next, we push the welcome trial to the timeline, which adds it to the end of the
 timeline.push(welcome);
 ```
 
-Finally, we tell jsPsych to run the experiment by calling the [jsPsych.init() function](../core_library/jspsych-core.md#jspsychinit) and passing in the array that defines the experiment timeline.
+Finally, we tell jsPsych to run the experiment by calling the [jsPsych.init() function](../core_library/jsPsych-core.md#jspsychinit) and passing in the array that defines the experiment timeline.
 
 ```javascript
 jsPsych.init({
@@ -68,9 +68,9 @@ jsPsych.init({
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -135,9 +135,9 @@ timeline.push(instructions);
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -181,15 +181,15 @@ timeline.push(instructions);
 
 ## Part 4: Displaying stimuli and getting responses
 
-Creating trials to show the stimuli is conceptually the same as creating a trial to show instructions, except that now we are displaying an image instead of text or html. This means we need to use a different plugin: jspsych-image-keyboard-response. We need to start by loading this plugin by adding a `<script>` tag to the document.
+Creating trials to show the stimuli is conceptually the same as creating a trial to show instructions, except that now we are displaying an image instead of text or html. This means we need to use a different plugin: jsPsych-image-keyboard-response. We need to start by loading this plugin by adding a `<script>` tag to the document.
 
 ```html
 <head>
   <title>My experiment</title>
-  <script src="jspsych-6.0.2/jspsych.js"></script>
-  <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-  <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-  <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+  <script src="jsPsych-6.0.2/jsPsych.js"></script>
+  <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+  <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+  <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
 </head>
 ```
 
@@ -222,10 +222,10 @@ timeline.push(blue_trial, orange_trial);
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -343,10 +343,10 @@ What happens when the experiment reaches the test procedure? jsPsych will run th
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -444,10 +444,10 @@ var test_procedure = {
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -521,7 +521,7 @@ var test_procedure = {
 
 One aspect of the experiment that could be improved is the duration of the fixation cross. As the experiment stands right now, the timing of the circles appearing is very predictable. We can change that by using a different value for the `trial_duration` parameter in the `fixation` trial for each trial. But how can we do that and keep the simple code structure we have now where we only have to define the fixation trial once? One option would be to add another timeline variable, like `"fixation_duration"` and use that to control the timing. But another option is to specify the `trial_duration` parameter as a function. If a parameter is a function, jsPsych will execute the function every time the trial runs. That means that if the function returns different results probabilistically, we can get a different parameter value every time the trial runs.
 
-To do that here, we'll use one of the built-in randomization methods in [jsPsych's randomization module](../core_library/jspsych-randomization.md). `jsPsych.randomization.sampleWithoutReplacement()` takes an array of items to sample from and generates a new array of length *N* by sampling without replacement.
+To do that here, we'll use one of the built-in randomization methods in [jsPsych's randomization module](../core_library/jsPsych-randomization.md). `jsPsych.randomization.sampleWithoutReplacement()` takes an array of items to sample from and generates a new array of length *N* by sampling without replacement.
 
 ```javascript
 var fixation = {
@@ -543,10 +543,10 @@ In the code above, we replaced the `trial_duration: 1000` parameter in `fixation
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -620,7 +620,7 @@ In the code above, we replaced the `trial_duration: 1000` parameter in `fixation
 
 ## Part 8: Displaying the data
 
-We have created a complete, if simple, experiment at this point, so let's take a look at the data being generated. jsPsych has a built-in [function called `jsPsych.data.displayData()`](../core_library/jspsych-data.md#jspsychdatadisplaydata) that is useful for debugging your experiment. It will remove all of the information on the screen and replace it with the raw data collected so far. This isn't terribly useful when you are actually running an experiment, but it's nice for checking the data during development.
+We have created a complete, if simple, experiment at this point, so let's take a look at the data being generated. jsPsych has a built-in [function called `jsPsych.data.displayData()`](../core_library/jsPsych-data.md#jspsychdatadisplaydata) that is useful for debugging your experiment. It will remove all of the information on the screen and replace it with the raw data collected so far. This isn't terribly useful when you are actually running an experiment, but it's nice for checking the data during development.
 
 We need the `displayData` function to execute when the experiment ends. One way to do this is to use the [`on_finish` callback function](../overview/callbacks.md#on_finish-experiment). This function will automatically execute once all the trials in the experiment are finished. We can specify a function to call in the `init` method.
 
@@ -640,10 +640,10 @@ jsPsych.init({
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -766,10 +766,10 @@ var fixation = {
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -877,10 +877,10 @@ The `data.key_press` value is a numeric key code indicating which key the subjec
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>
@@ -1004,10 +1004,10 @@ This code is available in the examples folder in the jsPsych download. It is cal
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jspsych-6.0.2/jspsych.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-html-keyboard-response.js"></script>
-    <script src="jspsych-6.0.2/plugins/jspsych-image-keyboard-response.js"></script>
-    <link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
+    <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
+    <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body></body>
   <script>

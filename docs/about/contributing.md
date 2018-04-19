@@ -6,9 +6,9 @@ Contributions to jsPsych are welcome! All of the code is managed through the Git
 
 #### Discuss the proposed change
 
-If you have a specific modification in mind, open a [new issue via GitHub](https://github.com/jspsych/jsPsych/issues/new). Describe the proposed change and what problem it solves. If you are interested in adding a new plugin to the library, it helps if you post an example of the plugin in use and describe the different use cases of the plugin.
+If you have a specific modification in mind, open a [new issue via GitHub](https://github.com/jsPsych/jsPsych/issues/new). Describe the proposed change and what problem it solves. If you are interested in adding a new plugin to the library, it helps if you post an example of the plugin in use and describe the different use cases of the plugin.
 
-If the modification you are interested in working on is not quite at the point where you have a specific modification to the code base in mind, then it might be helpful to discuss the issue first on the [jsPsych Google group](https://groups.google.com/forum/#!forum/jspsych).
+If the modification you are interested in working on is not quite at the point where you have a specific modification to the code base in mind, then it might be helpful to discuss the issue first on the [jsPsych Google group](https://groups.google.com/forum/#!forum/jsPsych).
 
 #### Fork the library and modify the code
 

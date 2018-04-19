@@ -1,4 +1,4 @@
-# jspsych-audio-keyboard-response
+# jsPsych-audio-keyboard-response
 
 This plugin plays audio files and records responses generated with the keyboard.
 
