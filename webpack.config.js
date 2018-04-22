@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 module.exports = [{
     entry: {
-        'quill-delta-markdown': './src/index.js'
+        'main': ['babel-polyfill','./src/JsPsych.js']
     },
     output: {
         filename: '[name].js',

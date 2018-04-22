@@ -53,7 +53,7 @@ To use jsPsych, add a `<script>` tag to import the library.
 <html>
 	<head>
 		<title>My experiment</title>
-		<script src="jsPsych-6.0.1/jsPsych.js"></script>
+		<script src="jsPsych-6.0.1/index.js"></script>
 	</head>
 	<body></body>
 </html>
@@ -66,7 +66,7 @@ You may also want to import the jsPsych stylesheet, which applies a basic set of
 <html>
 	<head>
 		<title>My experiment</title>
-		<script src="jsPsych-6.0.1/jsPsych.js"></script>
+		<script src="jsPsych-6.0.1/index.js"></script>
 		<link href="jsPsych-6.0.1/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
 	</head>
 	<body></body>
@@ -82,7 +82,7 @@ For the demo, we want to show some text on the screen. This is exactly what the 
 <html>
 	<head>
 		<title>My experiment</title>
-		<script src="jsPsych-6.0.1/jsPsych.js"></script>
+		<script src="jsPsych-6.0.1/index.js"></script>
 		<script src="jsPsych-6.0.1/plugins/jsPsych-html-keyboard-response.js"></script>
 		<link href="jsPsych-6.0.1/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
 	</head>
@@ -99,7 +99,7 @@ To add JavaScript code directly to the webpage we need to add a set of `<script>
 <html>
 	<head>
 		<title>My experiment</title>
-		<script src="jsPsych-6.0.1/jsPsych.js"></script>
+		<script src="jsPsych-6.0.1/index.js"></script>
 		<script src="jsPsych-6.0.1/plugins/jsPsych-html-keyboard-response.js"></script>
 		<link href="jsPsych-6.0.1/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
 	</head>
@@ -122,7 +122,7 @@ Now that we have the trial defined we just need to tell jsPsych to run an experi
 <html>
 	<head>
 		<title>My experiment</title>
-		<script src="jsPsych-6.0.1/jsPsych.js"></script>
+		<script src="jsPsych-6.0.1/index.js"></script>
 		<script src="jsPsych-6.0.1/plugins/jsPsych-html-keyboard-response.js"></script>
 		<link href="jsPsych-6.0.1/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
 	</head>

@@ -18,7 +18,7 @@ Start by downloading jsPsych and setting up a folder to contain your experiment 
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
@@ -68,7 +68,7 @@ jsPsych.init({
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
@@ -135,7 +135,7 @@ timeline.push(instructions);
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
   </head>
@@ -186,7 +186,7 @@ Creating trials to show the stimuli is conceptually the same as creating a trial
 ```html
 <head>
   <title>My experiment</title>
-  <script src="jsPsych-6.0.2/jsPsych.js"></script>
+  <script src="jsPsych-6.0.2/index.js"></script>
   <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
   <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
   <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -222,7 +222,7 @@ timeline.push(blue_trial, orange_trial);
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -343,7 +343,7 @@ What happens when the experiment reaches the test procedure? jsPsych will run th
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -444,7 +444,7 @@ var test_procedure = {
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -543,7 +543,7 @@ In the code above, we replaced the `trial_duration: 1000` parameter in `fixation
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -640,7 +640,7 @@ jsPsych.init({
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -766,7 +766,7 @@ var fixation = {
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -877,7 +877,7 @@ The `data.key_press` value is a numeric key code indicating which key the subjec
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>
@@ -1004,7 +1004,7 @@ This code is available in the examples folder in the jsPsych download. It is cal
 <html>
   <head>
     <title>My experiment</title>
-    <script src="jsPsych-6.0.2/jsPsych.js"></script>
+    <script src="jsPsych-6.0.2/index.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-html-keyboard-response.js"></script>
     <script src="jsPsych-6.0.2/plugins/jsPsych-image-keyboard-response.js"></script>
     <link href="jsPsych-6.0.2/css/jsPsych.css" rel="stylesheet" type="text/css"></link>

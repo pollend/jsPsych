@@ -1,22 +1,20 @@
-const root = '../../';
-
-require(root + 'jspsych.js');
-require(root + 'plugins/jspsych-html-keyboard-response.js');
+import JsPsych from 'JsPsych/core'
 
 describe('#getKeyboardResponse', function(){
   beforeEach(function(){
-    var t = {
+
+    let t = {
       type: 'html-keyboard-response',
       stimulus: 'foo',
       choices: ['Q']
     }
 
-    jsPsych.init({
+    JsPsych.init({
       timeline: [t]
     })
   });
   test('should execute a function after successful keypress', function(){
-    var callback = jest.fn();
+    let callback = jest.fn();
     jsPsych.pluginAPI.getKeyboardResponse({callback_function: callback});
     expect(callback.mock.calls.length).toBe(0);
     document.querySelector('.jspsych-display-element').dispatchEvent(new KeyboardEvent('keydown', {keyCode: 32}));

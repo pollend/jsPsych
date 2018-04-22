@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015","flow"],
+  "plugins": ["syntax-dynamic-import"],
+  "ignore": [
+    "dist/*.js",
+    "packages/**/*.js"
+  ]
+}
